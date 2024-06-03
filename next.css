@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 73px;
+    background-color: rgb(0, 0, 49);
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    margin: 0 23px;
+}
+nav ul li{
+    list-style: none;
+    
+    margin-left: 80px;
+}
+nav ul li a{color: white;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    color: rgb(131, 131, 226);
+    font-size: 1.03rem;
+}
+.left{
+    font-size: 1.5rem;
+}
+.first{
+    display: flex;
+    justify-content: space-around;
+    margin: 130px 0;
+}
+.firstsec div{
+    width: 30%;
+}
+.leftsec{
+    font-size: 3rem;
+    margin-top: 38px;
+}
+
+.rightsec img{
+    height: 280px;
+    width: 310px;
+    margin-top: 20px;
+}
+.purple{
+    color: rgb(167, 87, 242);
+}
+#element{
+    color:rgb(167, 87, 242); ;
+}
+.seconds{
+    max-width: 80vh;
+    margin: auto;
+    height: 80vh;
+}
+h1{
+    margin-left: 188px;
+    margin-top: 30px;
+}
+main hr{
+    background-color: rgb(163, 101, 220);
+    border: 0;
+    height: 1.2px;
+    margin-left: 70px;
+    margin-right: 70px;
+
+}
+.seconds h1{
+    font-size: 1.9rem;
+}
+.box{
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 60px;
+    display: flex;
+}
+.seconds .vertical{
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 145px;
+}
+.img{
+    width: 23px;
+    position: relative;
+    top: -32px;
+    left: -9px;
+}
+.vertt{
+    position: relative;
+    top: 75px;
+    width: 150px;
+    font-size: 16px;
+}
+.desc{
+    position: relative;
+    top: 86px;
+    color: gray;
+    width: 150px;
+    font-size: 10px;
+}
+.footer{
+    background-color: rgb(165, 58, 165);
+    height: 230px;
+}
+.btn{
+    background-color: rgb(61, 14, 61);
+    color: white;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px;
+}
+.button{
+    padding: 16px;
+}
+
+
